@@ -1,0 +1,11 @@
+extends /layout/_application
+append config
+  - path = '../'
+
+block content
+  header.header
+    .content
+      img.logo(src="/images/icons/tw-icon.svg")
+
+  .not-found
+    h1.title このページは存在しません。

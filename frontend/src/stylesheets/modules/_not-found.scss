@@ -1,0 +1,12 @@
+.not-found {
+  &:not(:root) {
+    background-color: $PRIMARY_BLUE;
+    min-height: 100%;
+  }
+
+  > .title {
+    color: $WHITE;
+    text-align: center;
+    padding-top: 45px;
+  }
+}
